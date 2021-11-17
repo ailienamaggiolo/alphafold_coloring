@@ -33,7 +33,7 @@ This example shows how only chain A of the NifH dimer is colored by pLDDT. Chain
 ```
   PyMOL> color_plddt(selection="chainA")
 ```
-![example image](https://github.com/ailienamaggiolo/alphafold_coloring/nifH_dimer_example.png)
+![example image](https://github.com/ailienamaggiolo/alphafold_coloring/blob/main/nifH_dimer_example.png)
 
 ## Additional notes
 
