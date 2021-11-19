@@ -1,6 +1,6 @@
 # alphafold_coloring
 
-alphafold_coloring.py is a script that can be implemented in PyMOL to color AlphaFold Protein Structure Database predictive models by their per-residue confidence score (pLDDT).
+alphafold_coloring.py is a script that can be implemented in PyMOL to color [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk) predictive models by their per-residue confidence score (pLDDT).
 
 More information about AlphaFold and the pLDDT score can be found [here:](https://www.nature.com/articles/s41586-021-03819-2)
 
@@ -29,7 +29,7 @@ To specify which atoms to apply AlphaFold coloring, first create an object or a 
   PyMOL> color_plddt(selection="my_object")
 ```
 
-This example shows how only chain A of the NifH dimer is colored by pLDDT. Chain A was created as the object "chainA". The coloring was then applied by:
+This example shows how only chain A of the NifH dimer is colored by pLDDT. Chain A was created as the object, "chainA". The coloring was then applied by:
 ```
   PyMOL> color_plddt(selection="chainA")
 ```
@@ -51,7 +51,7 @@ Note that the coloring scheme defined by AlphaFold ranges from pLDDT values of 0
 
 ## Comments about ColabFold coloring
 
-[ColabFold](https://github.com/sokrypton/ColabFold) coloring is different than the coloring used by AlphaFold Protein Structure Database. ColabFold notebooks appear to use a rainbow coloring scheme, although the mathematical function for this colormap is not explicitly given.
+[ColabFold](https://github.com/sokrypton/ColabFold) coloring is different than the coloring used by [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk). ColabFold notebooks appear to use a rainbow coloring scheme, although the mathematical function for this colormap is not explicitly given.
 
 The best I could do to recapitulate ColabFold's coloring scheme was to implement spectrum in PyMOL by:
 ```
